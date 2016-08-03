@@ -8,7 +8,7 @@ class Test extends PHPUnit_Framework_TestCase
 
 	public function testDoSomething() {
 		$n = 10;
-		$this->assertEquals($n*$n, 20);
+		$this->assertEquals(100, $n*$n);
 	}
 }
 
